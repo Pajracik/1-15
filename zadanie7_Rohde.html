@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Styl lokalny - pytania i odpowiedzi</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+</style>
+</head>
+<body>
+
+<h1>1. Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego?</h1>
+<p>Styl lokalny pozwala na formatowanie <strong>pojedynczego, konkretnego elementu</strong> w kodzie HTML. Formatowanie dotyczy tylko tego elementu, w którym styl jest zdefiniowany.</p>
+
+<h1>2. Składnia teoretyczna (z użyciem ramki otaczającej→ może być tabela o jednej komórce, zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby instrukcja CSS nie wykonywała się a tylko wyświetlała wewnątrz ramki [  spacja niełamana] przykład „znaku specjalnego”)</h1>
+<table>
+<tr>
+<td>
+&lt;element style="cecha: wartość; cecha2: wartość2;"&gt;
+</td>
+</tr>
+</table>
+
+<h1>3. Co może być selektorem?</h1>
+<p>W stylu lokalnym <strong>selektorem jest sam element HTML</strong>, do którego dodajemy atrybut <code>style</code>. Nie używamy dodatkowych selektorów, jak w arkuszach CSS.</p>
+
+<h1>4. Co wipisujemy jako "cechę". Jakie jest znaczenie średników?</h1>
+<p>Jako "cechę" wpisujemy <strong>właściwość CSS</strong>, którą chcemy zmienić (np. <code>color</code>, <code>font-size</code>, <code>background-color</code>). Średniki oddzielają poszczególne deklaracje stylów (cecha: wartość).</p>
+
+<h1>5. Co wipisujemy jako "wartość" (w deklaracji stylu)?</h1>
+<p>Jako "wartość" wpisujemy <strong>konkretną wartość właściwości CSS</strong> (np. <code>red</code>, <code>16px</code>, <code>#FFFFFF</code>). Wartość musi być zgodna z typem danej właściwości.</p>
+
+</body>
+</html>

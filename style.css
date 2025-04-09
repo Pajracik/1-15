@@ -1,0 +1,28 @@
+/* Resetowanie domyślnych marginesów */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #AAAAAA;
+    text-align: center;
+}
+
+/* Stylowanie kontenera */
+.container {
+    background-color: grey;
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówek */
+h1 {
+    color: #111;
+}
+
+/* Akapit */
+p {
+    color: #200;
+    font-size: 20px;
+}

@@ -1,0 +1,20 @@
+/* Definiowanie stylu dla znacznika body */
+body {
+    color: blue; /* Kolor niebieski */
+    font-size: 30px; /* Wielkość czcionki 30px */
+}
+
+/* Definiowanie stylu dla znacznika p */
+p {
+    color: green; /* Kolor zielony */
+    font-size: 20px; /* Wielkość czcionki 20px */
+}
+
+/* Alternatywne kolory dla emotikonów */
+p:nth-child(odd) {
+    color: blue; /* Niebieski dla nieparzystych emotikonów */
+}
+
+p:nth-child(even) {
+    color: green; /* Zielony dla parzystych emotikonów */
+}
